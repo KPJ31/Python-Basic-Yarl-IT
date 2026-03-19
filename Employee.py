@@ -1,7 +1,8 @@
-hours = int(input("Working Hours: "))
+""" hours = int(input("Working Hours: "))
 salary = 2000
-hourly = 2000 / 8
+hourly = 2000 / 8"""
 
+"""
 if hours <= 8:
     print("Your Payment: " + str(salary))
 elif hours > 8 and hours <= 10:
@@ -10,3 +11,4 @@ elif hours > 8 and hours <= 10:
 else:
     overTime = 1000
     print("Your Payment: " + str(salary + overTime))
+"""
