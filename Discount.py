@@ -24,6 +24,11 @@ else:
 
 amount = float(input("Enter Your Bill Amount: "))
 
+while amount < 0:
+    print("Enter Valid Amount!!!")
+    amount = float(input("Enter Your Bill Amount: "))
+
+
 if amount >= 10000 and amount < 15000:
     discount = amount * 0.03
     print(f"Your Discount: {discount}")
